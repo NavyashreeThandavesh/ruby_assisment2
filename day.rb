@@ -1,0 +1,1 @@
+Date.today.beginning_of_week(:saturday).to_s(:calendar)
