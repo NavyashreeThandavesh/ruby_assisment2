@@ -1,6 +1,3 @@
 @str=gets.to_s
-@a=@str.upcase
+@a=@str.swapcase
 puts "#{@a}"
-@str1=gets.to_s
-@b=@str1.downcase
-puts "#{@b}"

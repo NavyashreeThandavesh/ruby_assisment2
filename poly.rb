@@ -6,20 +6,17 @@ class Vishnu
 end
 class Matsya < Vishnu
 	def avtaras1
-		avt("Matsya")
-		puts "I am Fish"
+		avt("Matsya,I am Fish")
 	end
 end
 class Kurma < Vishnu
 	def avtaras2
-		avt("Kurma")
-		puts "I am tortoise"
+		avt("Kurma,I am tortoise")
 	end
 end
 class Narashima < Vishnu
 	def avtaras3
-		avt("Narashima")
-		puts "I am lion"
+		avt("Narashima,I am lion")
 	end
 end
 m=Matsya.new
